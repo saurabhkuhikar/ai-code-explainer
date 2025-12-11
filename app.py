@@ -113,13 +113,15 @@ Explain this {language} code in 2–4 sentences.
 Provide an optimized version.
 Provide time & space complexity.
 
+If code is unclear, still return JSON.
+
 Return STRICT JSON:
 {{
- "explanation": "...",
- "optimized_code": "...",
+ "explanation": "",
+ "optimized_code": "",
  "complexity": {{
-     "time": "...",
-     "space": "..."
+     "time": "",
+     "space": ""
  }}
 }}
 CODE:
